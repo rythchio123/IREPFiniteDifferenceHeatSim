@@ -1,0 +1,30 @@
+GenerationFile = [
+    {
+        'Session Name': 'One',
+        'height': 50,
+        'unitsize': 6,
+        #Boudary Conditions
+        'top': 200, 
+        'left': 25, 
+        'right': 25, 
+        'down': 25, 
+        #Iteration Time 
+        'iterationtime' : 0.5,    
+        #Snpashot:
+        'frequency': 0.1, 
+        'snapshotpos': 10, 
+        'maxgraphtemp': 150, 
+        'mingraphtemp': 20
+    },
+    
+    {
+        'name': 'Copper', 
+        'property': 111, 
+        'length': 25
+    },
+
+    {
+        'name': 'Tin', 
+        'property': 44, 
+        'length': 25
+    },
